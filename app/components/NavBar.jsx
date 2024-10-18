@@ -4,8 +4,8 @@ import React from 'react'
 export default function NavBar() {
   return (
     <header className="w-full">
-    <nav className="w-full h-10 flex justify-between bg-sky-600 px-7 ">
-      <div className="flex items-center gap-10">
+    <nav className="w-full h-16 flex justify-between bg-sky-600 px-3 ">
+      <div className="flex items-center gap-3 ">
         <h1 className="text-white">DEMO Streaming</h1>
         <Link href="/">
         <p className='text-white hover:underline cursor-pointer'>Home</p>
@@ -16,7 +16,7 @@ export default function NavBar() {
         <button className="text-white">
           Log in
         </button>
-        <button className="bg-slate-600 w-36 h-8 text-white">
+        <button className="bg-slate-600 w-36 h-fit text-white">
           Start your free trial
         </button>
       </div>
